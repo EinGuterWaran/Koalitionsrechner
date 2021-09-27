@@ -19,9 +19,14 @@ er = [
 
 def rSubset(arr, r):
       return list(combinations(arr, r))
-
-coalInd = 1
+      
 if __name__ == "__main__":
+    #5% Hürde
+    for party in er: 
+        if party[1] < 5:
+            er.remove(party)
+
+    coalInd = 1
     partyCombinations = []
     for x in range (len(er), 0, -1):
         partyCombinations.extend(rSubset(er, x))
