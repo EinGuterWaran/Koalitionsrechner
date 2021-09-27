@@ -1,10 +1,10 @@
 from itertools import combinations
 import numpy as np
 
-# Input: election returns
-# German: Wahlergebnisse
-# Output: All purely mathematical coalition combinations that would have an absolute majority
-# German: Alle rein rechnerische Koallitionskombinationen welche eine absolute Mehrheit hätten
+# Input: Wahlergebnisse
+# English: Election returns
+# Output: Alle rein rechnerischen Koalitionsmöglichkeiten welche eine absolute Mehrheit ergeben würden
+# English: All coalition combinations that would have an absolute majority
 
 ## Input
 er = [
@@ -30,5 +30,5 @@ if __name__ == "__main__":
         
         voteSum = sum(partyComb[:, 1].astype(np.float))
         if voteSum >= 50:
-            print(', '.join(str(x) for x in partyComb[:, 0]) +" with "+ str(voteSum)+ "%.")
+            print(', '.join(str(x) for x in partyComb[:, 0]) +" mit "+ str(voteSum)+ "%.")
 
