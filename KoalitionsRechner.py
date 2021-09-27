@@ -29,6 +29,6 @@ if __name__ == "__main__":
         partyComb = np.array(partyCombination)
         
         voteSum = sum(partyComb[:, 1].astype(np.float))
-        if voteSum >= 50:
+        if voteSum > 50:
             print(', '.join(str(x) for x in partyComb[:, 0]) +" mit "+ str(voteSum)+ "%.")
 
