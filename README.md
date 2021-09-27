@@ -1,6 +1,6 @@
 # Koalitionsrechner 🇩🇪 🇩🇪 🇩🇪
 ### Input
-Wahlergebnisse  
+Anzahl Sitze der jeweiligen Parteien 
 ### Output
 Alle rein rechnerischen Koalitionsmöglichkeiten welche eine absolute Mehrheit ergeben würden
 
