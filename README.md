@@ -38,5 +38,14 @@ Bundestagswahl 2021 (Stand 27.09.2021 23:01):
 #29: CDU/CSU, GRÜNE, FDP mit 55.24%.  
 #30: CDU/CSU, GRÜNE, AfD mit 54.01%.  
 #31: CDU/CSU, FDP, AfD mit 50.48%.  
-#32: SPD, CDU/CSU mit 54.69%.
+#32: SPD, CDU/CSU mit 54.69%.  
+</b>
+Eine Viererkoalition wird es nicht geben. Mit der AfD will keiner koalieren. Folgende Möglichkeiten bleiben über:  
+<b>
+#22: SPD, CDU/CSU, GRÜNE mit 70.75% (**Kenia-Koalition**).
+#23: SPD, CDU/CSU, FDP mit 67.21% (**Deutschland-Koalition**).  
+#25: SPD, CDU/CSU, DIE LINKE mit 60.0% (**Schwarz-Rot-Rot**).  
+#26: SPD, GRÜNE, FDP mit 56.6% (**Ampelkoalition**).
+#29: CDU/CSU, GRÜNE, FDP mit 55.24% (**Jamaika-Koalition).  
+#32: SPD, CDU/CSU mit 54.69% (**Große Koalition**).
 </b>
