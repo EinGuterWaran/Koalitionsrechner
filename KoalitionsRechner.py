@@ -8,19 +8,19 @@ import numpy as np
 
 ## Input
 er = [
-        ["SPD", 26],
-        ["CDU/CSU", 24],
-        ["GRÜNE", 15],
-        ["FDP", 12],
-        ["AfD", 11],
-        ["DIE LINKE", 5]
+        ["SPD", 25.7],
+        ["CDU/CSU", 24.1],
+        ["GRÜNE", 14.8],
+        ["FDP", 11.5],
+        ["AfD", 10.3],
+        ["DIE LINKE", 4.9]
     ]
 ## End Input
 
 def rSubset(arr, r):
       return list(combinations(arr, r))
 
-
+coalInd = 1
 if __name__ == "__main__":
     partyCombinations = []
     for x in range (len(er), 0, -1):
@@ -30,5 +30,6 @@ if __name__ == "__main__":
         
         voteSum = sum(partyComb[:, 1].astype(np.float))
         if voteSum > 50:
-            print(', '.join(str(x) for x in partyComb[:, 0]) +" mit "+ str(voteSum)+ "%.")
+            print("#"+str(coalInd)+": "+', '.join(str(x) for x in partyComb[:, 0]) +" mit "+ str(round(voteSum,2))+ "%.")
+            coalInd += 1
 
