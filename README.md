@@ -5,7 +5,7 @@ Wahlergebnisse
 Alle rein rechnerischen Koalitionsmöglichkeiten welche eine absolute Mehrheit ergeben würden
 
 ## Ergebnis
-Stand 27.09.2021 17:27:  
+Bundestagswahl 2021 (Stand 27.09.2021 17:27):  
 <b>#1: SPD, CDU/CSU, GRÜNE, FDP, AfD, DIE LINKE mit 91.3%.  
 #2: SPD, CDU/CSU, GRÜNE, FDP, AfD mit 86.4%.  
 #3: SPD, CDU/CSU, GRÜNE, FDP, DIE LINKE mit 81.0%.  
